@@ -31,6 +31,7 @@ BuildRequires: cmake(KF6ThreadWeaver)
 BuildRequires: cmake(KF6ItemModels)
 BuildRequires: cmake(KF6Config)
 BuildRequires: cmake(KF6CoreAddons)
+BuildRequires: cmake(KF6I18n)
 Requires: %{libname} = %{EVRD}
 
 %description
