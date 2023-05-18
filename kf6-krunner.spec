@@ -30,6 +30,7 @@ BuildRequires: cmake(Qt6QuickTest)
 BuildRequires: cmake(KF6ThreadWeaver)
 BuildRequires: cmake(KF6ItemModels)
 BuildRequires: cmake(KF6Config)
+BuildRequires: cmake(KF6CoreAddons)
 Requires: %{libname} = %{EVRD}
 
 %description
