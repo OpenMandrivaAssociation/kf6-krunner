@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Runner
 %define devname %mklibname KF6Runner -d
-%define git 20230513
+%define git 20230526
 
 Name: kf6-krunner
 Version: 5.240.0
@@ -72,12 +72,12 @@ Framework for providing different actions given a string query
 
 %files
 %{_datadir}/qlogging-categories6/krunner.*
-%{_datadir}/dbus-1/interfaces/kf5_org.kde.krunner1.xml
 
 %files -n %{devname}
 %{_includedir}/KF6/KRunner
 %{_libdir}/cmake/KF6Runner
 %{_qtdir}/mkspecs/modules/qt_KRunner.pri
+%{_datadir}/dbus-1/interfaces/kf6_org.kde.krunner1.xml
 %{_datadir}/kdevappwizard/templates/runner.tar.bz2
 %{_datadir}/kdevappwizard/templates/runnerpython.tar.bz2
 %doc %{_qtdir}/doc/KF6Runner.*
