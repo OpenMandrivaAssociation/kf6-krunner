@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Runner
 %define devname %mklibname KF6Runner -d
-%define git 20230901
+%define git 20230909
 
 Name: kf6-krunner
 Version: 5.240.0
