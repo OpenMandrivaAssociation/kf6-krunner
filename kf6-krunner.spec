@@ -2,10 +2,10 @@
 
 %define libname %mklibname KF6Runner
 %define devname %mklibname KF6Runner -d
-#define git 20231103
+%define git 20240217
 
 Name: kf6-krunner
-Version: 5.249.0
+Version: 5.250.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/krunner/-/archive/master/krunner-master.tar.bz2#/krunner-%{git}.tar.bz2
