@@ -40,6 +40,7 @@ BuildRequires: cmake(KF6ItemModels)
 BuildRequires: cmake(KF6Config)
 BuildRequires: cmake(KF6CoreAddons)
 BuildRequires: cmake(KF6I18n)
+BuildRequires: cmake(KF6WindowSystem)
 Requires: %{libname} = %{EVRD}
 
 %description
